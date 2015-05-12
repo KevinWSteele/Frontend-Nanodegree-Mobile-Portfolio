@@ -1,3 +1,40 @@
+
+For index.html:
+
+I minfied the pizzeria image using an online image optimizer: http://www.imageoptimizer.net/Pages/Home.aspx
+
+I assigned classes to elements of the web page, such as paragraphs within lists. This way,
+CSS does not have to work so hard to figure out the child of the parent elements.
+
+I minified and inlined the CSS that contributes to the initial page load. Then, I 
+inlined that CSS and kept the rest of the CSS in a separate CSS file. 
+
+I put in JavaScript code to make the CSS async so that it dowloads during the idle time.
+
+I inlined code for the google font I needed and then got rid of the link to google fonts at the top.
+
+
+
+
+For the pizza site:
+
+I changed "selectAllQueryElements()" to "getElementsByClassName()"
+
+I simplified the way the code iterates through the pizza elements to change their  widths.
+
+When it came to moving the sliding background pizzas based on scoll position, I stored a calculation in 
+in a variable so that the calculation only had to happen once.
+
+We do not need to generate 200 sliding pizzas. I dynamically calculate the number of pizzas using the screen
+size.
+
+
+
+
+
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
