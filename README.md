@@ -10,6 +10,7 @@ I minified and inlined the CSS that contributes to the initial page load. Then, 
 inlined that CSS and kept the rest of the CSS in a separate CSS file. 
 
 I put in JavaScript code to make the CSS async so that it dowloads during the idle time.
+help from http://stackoverflow.com/
 
 I inlined code for the google font I needed and then got rid of the link to google fonts at the top.
 
